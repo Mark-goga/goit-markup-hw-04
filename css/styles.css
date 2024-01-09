@@ -170,7 +170,9 @@ img {
     background-color: #404BBF;
 }
 .section-button{
-    background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70) , rgba(46, 47, 66, 0.70)) , url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -208,6 +210,15 @@ img {
     width: calc((100% - 24px * 3) / 4);
     margin-bottom: 8px; 
 }
+.container-ietem-icon {
+    border-radius: 4px;
+    border: 1px solid  #8E8F99;
+    width: 264px;
+    height: 112px;
+}
+.advantahes-icon {
+    margin: 24px 100px;
+}
 .advantages-title{
     color: #2e2f42;
     font-size: 20px;
@@ -231,6 +242,7 @@ img {
 /*.section-team-container {
     display: flex;
 }*/
+
 .section-team-list {
     display: flex;
     gap: 24px;
@@ -239,11 +251,31 @@ img {
     background-color: #FFFFFF;
     width: calc((100% - 24px * 3) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
 }
 .team-coiteiner-item {
-    padding: 32px 0;
+    padding: 32px 0 8px 0;
 }
+.container-icon {
+    display: flex;
+    gap: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 32px;
+}
+.team-item-icon-svg {
+}
+.team-item-icon {
+}
+.container-icon-item {
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 12px;
+}
+
 .team-title{
     color:#2e2f42;
     text-align: center;
@@ -313,8 +345,8 @@ img {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     padding-bottom: 32px;
-    padding-left: 16px;
-    /*padding-right: 16px;*/
+    /*padding-left: 16px;
+    padding-right: 16px;*/
 }
 .portfolio-item-container {
     padding: 32px 16px;
@@ -330,6 +362,7 @@ img {
     padding: 100px 0;
 }
 .footer-container {
+    
 }
 .footer-text {
     margin-top: 18px;
@@ -351,4 +384,28 @@ img {
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+}
+.footer-soc-container {
+    display: flex;
+}
+.soc-p { 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50; /* 150% */
+    letter-spacing: 0.02em;
+}
+.container-icon-footer {
+    display: flex;
+    gap: 16px;
+}
+.container-icon-footer {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+.footer-icon-svg {
+    margin: 8px;
+}
+.footer-icon {
 }
