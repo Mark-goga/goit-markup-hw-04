@@ -454,7 +454,10 @@ img {
 }
 .footer-container {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
 }
 .footer-container-logo {
     margin-right: 120px
