@@ -435,7 +435,6 @@ img {
 .portfolio-text {
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
     /*padding-left: 16px;
     padding-right: 16px;*/
 }
@@ -463,7 +462,6 @@ img {
     margin-right: 120px
 }
 .footer-text {
-    margin-top: 18px;
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
